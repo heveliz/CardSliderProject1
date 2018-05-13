@@ -1,0 +1,71 @@
+body {
+    font-family: Roboto;
+    padding: 20 px;
+}
+
+/*Container*/
+
+.cardSlider .wrapper{    
+    position:relative;
+}
+
+.cards_container{
+    box-sizing: border-box;
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    background: #ececec;
+}
+
+.cards_container .item {
+    height: 300px;
+    display: none;
+}
+
+.cards_container .item.active{
+    display: block;
+    padding: 20px;
+}
+
+/*BTNS*/
+
+.action_btns{
+    position: absolute;
+    top: 110px;
+    width: 100%;
+
+}
+
+.action_btns .btn{
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    font-size: 50px;
+    color: #0275d8;
+}
+
+.action_btns .btn_prev{
+    float: left;
+}
+
+
+.action_btns .btn_next{
+    float: right;
+}
+
+/*COUNTER*/
+
+.count_slide{
+    width: 140px;
+    background: #0275d8;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+    float: right;
+    
+}
+
+.count_slide span{
+    font-weight: bold;
+}
